@@ -1,5 +1,6 @@
 use Examination_System
 
+
 create partition function MyFUNC(int)
 as range left 
 for values (20000,40000,60000)

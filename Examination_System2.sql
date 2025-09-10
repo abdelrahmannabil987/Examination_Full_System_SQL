@@ -34,6 +34,8 @@ where Q.ExamID=@Exam_ID
 order by Q.QuestionID,C.ChoiceID
 End 
 
+
+
 --Report that takes exam number and the student 
 --ID then returns the Questions in this exam with 
 --the student answers
